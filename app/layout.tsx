@@ -3,8 +3,11 @@ import './globals.css'
 import { ThemeProvider } from './components/ThemeProvider'
 
 export const metadata: Metadata = {
-  title: 'Base Mini App',
-  description: 'Built with Zara',
+  title: 'FloodAlert NG - Hyperlocal Flood Alerts',
+  description: 'Get hyperlocal flood risk notifications and actionable preparedness guidance using predictive weather and satellite data.',
+  keywords: ['flood', 'alert', 'weather', 'preparedness', 'emergency', 'base', 'miniapp'],
+  authors: [{ name: 'FloodAlert NG Team' }],
+  viewport: 'width=device-width, initial-scale=1',
 }
 
 export default function RootLayout({
