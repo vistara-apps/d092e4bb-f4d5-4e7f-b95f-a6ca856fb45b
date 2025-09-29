@@ -3,8 +3,8 @@ import './globals.css'
 import { ThemeProvider } from './components/ThemeProvider'
 
 export const metadata: Metadata = {
-  title: 'Base Mini App',
-  description: 'Built with Zara',
+  title: 'FloodAlert NG',
+  description: 'Hyperlocal Flood Alerts, Before They Happen.',
 }
 
 export default function RootLayout({
